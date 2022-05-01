@@ -5,9 +5,49 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   background:linear-gradient(to right,#ffffff,#fdf2bf,#fae580,#f8d840)
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card-size{
+  height: 300px;
+}
+.img-style{
+    height: 300px;
+}
+.img-styling{
+  height: 340px;
+}
+.body-style{
+  height: 277px;
+  overflow: hidden;
+}
+.card-style{
+  background: linear-gradient(to top,rgb(0, 0, 0),rgb(173, 173, 173));
+}
+.body-style .card-title{
+  font-family: monospace;
+  font-weight: bold;
+  color: white;
+}
+.body-style .card-text{
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+.card-style:hover{
+  box-shadow: 5px 9px 9px  rgba(0, 0, 0, 0.76);
+}
+.searchimg-style{
+  height: 180px;
+}
+.link-style{
+  text-decoration: none;
+}
+.title-style{
+  font-size: x-large;
+}
+.card-text
+{
+  font-family: monospace;
+}
+.searchcardstyle{
+  background: linear-gradient(to top, #fff3b7,#ffee9d,#ffe14e,#ffd300);
 }
